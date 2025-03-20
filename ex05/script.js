@@ -1,11 +1,5 @@
-function tamanhoNomeCompleto(nome,sobrenome) {
-    return nome.length + ' '.length + sobrenome.length;
+function NumeroLetras(str){
+ str.length=7;
+ console.log(str + " tem " + str.length + " Letras.");
 }
-
-const tamanhoJuan = tamanhoNomeCompleto('Juan', 'Perez');
-
-console.log( tamanhoJuan );
-
-const tamanhoMarcelo = tamanhoNomeCompleto('Marcelo', 'Maciel');
-
-console.log( tamanhoMarcelo );
+NumeroLetras(prompt("Diga uma palavra:"));
